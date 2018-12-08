@@ -12,6 +12,7 @@ namespace vKitten.Interpreter.RuntimeTypes
         public ivKittenClass() : base()
         {
             methodList = new List<ivKittenMethod>();
+
         }
     }
 }
