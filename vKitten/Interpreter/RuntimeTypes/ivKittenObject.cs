@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using vKitten.Interpreter.RuntimeTypes;
 
-namespace vKitten.Interpreter
+namespace vKitten.Interpreter.RuntimeTypes
 {
     class ivKittenObject
     {

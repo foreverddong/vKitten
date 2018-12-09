@@ -7,12 +7,14 @@ namespace vKitten.Interpreter.RuntimeTypes
     class ivKittenClass : ivKittenObject
     {
         public string classname;
+        public List<string> ivars;
         public ivKittenClass superclass;
         public List<ivKittenMethod> methodList;
         public ivKittenClass() : base()
         {
             methodList = new List<ivKittenMethod>();
-
         }
+
+        public ivKittenObject
     }
 }

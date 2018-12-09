@@ -5,5 +5,9 @@
     <TargetFramework>netcoreapp1.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="TODO.md" />
+  </ItemGroup>
+
 
 </Project>
