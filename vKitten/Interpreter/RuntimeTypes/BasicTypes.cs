@@ -21,6 +21,10 @@ namespace vKitten.Interpreter.RuntimeTypes
 
     class ivKittenString : ivKittenObject
     {
+        public ivKittenString(string s) : base()
+        {
+            rVal = s;
+        }
         public string rVal;
     }
 }

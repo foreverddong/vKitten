@@ -15,6 +15,6 @@ namespace vKitten.Interpreter.RuntimeTypes
             methodList = new List<ivKittenMethod>();
         }
 
-        public ivKittenObject
+        
     }
 }

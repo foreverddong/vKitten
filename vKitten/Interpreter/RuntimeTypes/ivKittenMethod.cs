@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-#warning "ivKittenFunction does not have implementation"
+#warning "ivKittenMethod does not have implementation"
 
 namespace vKitten.Interpreter.RuntimeTypes
 {

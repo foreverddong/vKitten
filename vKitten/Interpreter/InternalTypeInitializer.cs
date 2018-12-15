@@ -40,7 +40,7 @@ namespace vKitten.Interpreter
             var kObject_toString_method = new ivKittenBuiltinMethod() { methodName = "toString", argCount = 0 };
             kObject_toString_method.impl = n =>
             {
-                return new ;
+                return new ivKittenString("this is returned by sending toString to Object");
             };
 
             return standardImage;
