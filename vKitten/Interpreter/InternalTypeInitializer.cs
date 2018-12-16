@@ -43,6 +43,8 @@ namespace vKitten.Interpreter
                 return new ivKittenString("this is returned by sending toString to Object");
             };
 
+           
+
             return standardImage;
         }
     }
